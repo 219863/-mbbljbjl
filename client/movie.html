@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <!-- Link to the CSS -->
+    <link rel="stylesheet" href="movie-styles.css">
+    <!-- Importing Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Movie Details</h1>
+        <!-- Link to home page -->
+        <a href="index.html" class="back-button">Back to Home</a>
+    </header>
+   <!-- Main content -->
+    <main>
+        <!-- Movie details -->
+        <section id="movie-details">
+            <div id="movie-info">
+                <img id="movie-poster" src="" alt="Movie Poster">
+                <div id="movie-meta">
+                    <h2 id="movie-title"></h2>
+                    <p id="movie-plot"></p>
+                    <p id="movie-rating"></p>
+                    <p id="movie-release-date"></p>
+                    <p id="movie-runtime"></p>
+                    <p id="movie-cast"></p>
+                </div>
+            </div>
+             <!--Review section-->
+            <div id="review-section">
+                <h3>Reviews</h3>
+                <ul id="review-list">
+                </ul>
+                <div id="add-review">
+                    <textarea id="review-input" placeholder="Enter your review..."></textarea>
+                    <button id="submit-review">Submit Review</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- JavaScript file -->
+    <script src="movie.js"></script>
+</body>
+</html>
